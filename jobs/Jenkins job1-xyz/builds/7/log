@@ -1,0 +1,60 @@
+Started by an SCM change
+Running as SYSTEM
+Building remotely on [8mha:////4HrIa4jSge5rN4k1p6ssyQEZtvZ1jTGD2UlNX2iXD92NAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/eKcxLJUAEnZB8bEAAAA[0mslave in workspace /home/ec2-user/slave/workspace/Jenkins job1-xyz
+using credential fbad28fb-73f5-433b-aa3d-f0b5780fb723
+Cloning the remote Git repository
+Cloning repository https://github.com/keeru147/gitcentral.git
+ > git init /home/ec2-user/slave/workspace/Jenkins job1-xyz # timeout=10
+Fetching upstream changes from https://github.com/keeru147/gitcentral.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/keeru147/gitcentral.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/keeru147/gitcentral.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/keeru147/gitcentral.git # timeout=10
+Fetching upstream changes from https://github.com/keeru147/gitcentral.git
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/keeru147/gitcentral.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 034deded8310eca1c3e871c58aa6b04f1a18aabf (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 034deded8310eca1c3e871c58aa6b04f1a18aabf
+Commit message: "Merge pull request #1 from vinaykumarsrs/master"
+ > git rev-list --no-walk ac95af945af6bdcbab60fa82bf23fd1dc0fd1b5f # timeout=10
+[Jenkins job1-xyz] $ /bin/sh -xe /tmp/jenkins7315099780790395990.sh
++ pwd
+/home/ec2-user/slave/workspace/Jenkins job1-xyz
++ ls
+a
+b
+big3.c
+fact.c
+largest_3_number.py
+launch.sh
+main.c
+makefile
+pali.c
+README.md
+rev.c
+SampleWebApp.war
+test1
+xyz.exe
++ make
+gcc main.c big3.c fact.c rev.c pali.c -o xyz.exe
++ ls
+a
+b
+big3.c
+fact.c
+largest_3_number.py
+launch.sh
+main.c
+makefile
+pali.c
+README.md
+rev.c
+SampleWebApp.war
+test1
+xyz.exe
+Finished: SUCCESS

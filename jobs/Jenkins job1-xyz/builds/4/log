@@ -1,0 +1,43 @@
+Started by user [8mha:////4A8TZQLS7RLfoMLD35eSyNuHQI/uqtrcKTMur3EsHCrTAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL97NTUolIAhY3Q8sAAAAA=[0mkeeru
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Jenkins job1-xyz
+using credential fbad28fb-73f5-433b-aa3d-f0b5780fb723
+Cloning the remote Git repository
+Cloning repository https://github.com/keeru147/gitcentral.git
+ > git init /var/lib/jenkins/workspace/Jenkins job1-xyz # timeout=10
+Fetching upstream changes from https://github.com/keeru147/gitcentral.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/keeru147/gitcentral.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/keeru147/gitcentral.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/keeru147/gitcentral.git # timeout=10
+Fetching upstream changes from https://github.com/keeru147/gitcentral.git
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/keeru147/gitcentral.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision ac95af945af6bdcbab60fa82bf23fd1dc0fd1b5f (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ac95af945af6bdcbab60fa82bf23fd1dc0fd1b5f
+Commit message: "revised push"
+First time build. Skipping changelog.
+[SSH] commands:
+
+pwd
+ls
+make
+ls
+
+
+[SSH] executing...
+/home/ec2-user
+gitcentral
+jenkins-2.184-1.1.noarch.rpm
+make: *** No targets specified and no makefile found.  Stop.
+
+[SSH] completed
+[SSH] exit-status: 2
+
+Build step 'Execute shell script on remote host using ssh' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-07-11 14:28:09.383 UTC</timestamp>
+  <md5sum>8b2801814b9dad9a2479dd5722cdf167</md5sum>
+  <fileName>Credential id=fbad28fb-73f5-433b-aa3d-f0b5780fb723 name=keeru/******</fileName>
+  <usages>
+    <entry>
+      <string>Jenkins job1-xyz</string>
+      <ranges>4-8</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

@@ -1,0 +1,61 @@
+Started by user [8mha:////4A8TZQLS7RLfoMLD35eSyNuHQI/uqtrcKTMur3EsHCrTAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL97NTUolIAhY3Q8sAAAAA=[0mkeeru
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Jenkins job1-xyz
+using credential fbad28fb-73f5-433b-aa3d-f0b5780fb723
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/keeru147/gitcentral.git # timeout=10
+Fetching upstream changes from https://github.com/keeru147/gitcentral.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/keeru147/gitcentral.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision ac95af945af6bdcbab60fa82bf23fd1dc0fd1b5f (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ac95af945af6bdcbab60fa82bf23fd1dc0fd1b5f
+Commit message: "revised push"
+ > git rev-list --no-walk ac95af945af6bdcbab60fa82bf23fd1dc0fd1b5f # timeout=10
+[Jenkins job1-xyz] $ /bin/sh -xe /tmp/jenkins55671552312592306.sh
++ pwd
+/var/lib/jenkins/workspace/Jenkins job1-xyz
++ ls
+a
+b
+big3.c
+fact.c
+largest_3_number.py
+main.c
+makefile
+pali.c
+README.md
+rev.c
+xyz.exe
++ make
+gcc main.c big3.c fact.c rev.c pali.c -o xyz.exe
+main.c: In function ‘main’:
+main.c:5:2: warning: implicit declaration of function ‘big3’ [-Wimplicit-function-declaration]
+  big3();
+  ^~~~
+main.c:6:2: warning: implicit declaration of function ‘pali’ [-Wimplicit-function-declaration]
+  pali();
+  ^~~~
+main.c:7:2: warning: implicit declaration of function ‘rev’ [-Wimplicit-function-declaration]
+  rev();
+  ^~~
+main.c:8:2: warning: implicit declaration of function ‘fact’ [-Wimplicit-function-declaration]
+  fact();
+  ^~~~
++ ls
+a
+b
+big3.c
+fact.c
+largest_3_number.py
+main.c
+makefile
+pali.c
+README.md
+rev.c
+xyz.exe
+Finished: SUCCESS

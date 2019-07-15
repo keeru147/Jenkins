@@ -1,0 +1,11 @@
+Started on Jul 14, 2019 7:43:00 AM
+Using strategy: Default
+[poll] Last Built Revision: Revision 034deded8310eca1c3e871c58aa6b04f1a18aabf (refs/remotes/origin/master)
+using credential fbad28fb-73f5-433b-aa3d-f0b5780fb723
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git ls-remote -h https://github.com/keeru147/gitcentral.git # timeout=10
+Found 1 remote heads on https://github.com/keeru147/gitcentral.git
+[poll] Latest remote head revision on refs/heads/master is: 0124ddef0ae4c026b44aee16922b7373c231b178
+Done. Took 0.68 sec
+Changes found
